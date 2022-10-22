@@ -1,0 +1,75 @@
+ #nav ul{
+   list-style-type: none; 
+   text-align: center;
+}
+#nav li{
+   display: inline;
+   text-align: center;
+   margin: 0 5px 0 0;
+}
+ #nav li a {
+   padding: 2px 5px 2px 5px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid rgb(70, 5, 5);
+   text-decoration: none;
+}
+#nav li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+
+ #nav {
+   display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+ }
+ #btn-inscripc a {
+   padding: 2px 5px 2px 5px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid rgb(70, 5, 5);
+   text-decoration: none;
+}
+#btn-inscripc a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+#caja-quiensomos {
+   background-color: #666;
+   margin-top: 2rem;
+}
+#caja-contacto{
+   background-color: #666;
+   margin-top: 2rem;
+}
+#caja-inscrpcion{
+   background-color: #666;
+   margin-top: 2rem;
+}
+
+ .ulflex {
+    background-color: rgb(47, 115, 142);
+    border: 2px solid black;
+ }
+ .act-x {
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+ }
+ .img-act{
+   background-color: yellow;
+    border: solid 1px #000;
+    padding: 2rem;
+     margin: 1rem;
+ }
+ .img-actx{
+   background-color: rgb(230, 160, 212);
+    border: solid 1px #000;
+    padding: 1rem;
+     margin: 1rem;
+ }
