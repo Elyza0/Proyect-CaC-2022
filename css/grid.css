@@ -45,8 +45,9 @@ body {
 
 .main {
   grid-area: main;
-  background-color: #f5f5f5;
+  background-color: #38720b;
   padding-top: 15px;
+ 
 }
 
 .footer {
@@ -57,6 +58,7 @@ body {
 .img1 {
   grid-area: img1;
   background-color: #cdda98;
+ 
 }
 
 .img2 {

@@ -41,6 +41,8 @@ body {
 .main {
   grid-area: main;
   background-color: #f5f5f5;
+  padding-top: 15px;
+  margin-top: 20px;
 }
 
 .footer {
@@ -97,6 +99,9 @@ body {
 }
 
 @media (min-width: 900px) {
+  #caja-contacto{
+    max-width: 23.75rem;;
+  } 
   .grid-container {
     grid-template:
       "header  header header" 100px

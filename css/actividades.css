@@ -39,7 +39,12 @@ body {
 }
 .main {
   grid-area: main;
-  background-color: #f5f5f5;
+  background-color: #0f2101;
+  padding-top: 15px;
+  margin-top: 20px;
+  font-family: cursive;
+  color: ghostwhite;
+
 }
 
 .footer {
@@ -49,17 +54,18 @@ body {
 
 .img1 {
   grid-area: img1;
-  background-color: #bdcd7c;
+  background-color: #0f2101;
+ 
 }
 
 .img2 {
   grid-area: img2;
-  background-color: #bdcd7c;
+  background-color: #0f2101;
 }
 
 .img3 {
   grid-area: img3;
-  background-color: #bdcd7c;
+  background-color: #0f2101;
 }
 
 .img4 {
