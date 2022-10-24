@@ -21,7 +21,7 @@ body {
 
 /* estilos para los elementos del contenedor*/
 .grid-container>* {
-  box-shadow: -1px 1px 5px 0px rgba(236, 13, 13, 0.75);
+  box-shadow: -1px 1px 5px 0px #4c712f;;
   border-radius: 4px;
   padding: 5px;
   text-align: center;
@@ -34,22 +34,20 @@ body {
 
 .navbar {
   grid-area: navbar;
-  background-color: #afd6af;
+  background-color: #000;
   align-content: center;
 }
 .main {
   grid-area: main;
-  background-color: #0f2101;
+  background-color: #fcfcfcb8;
   padding-top: 15px;
   margin-top: 20px;
-  font-family: cursive;
-  color: ghostwhite;
-
+  color: #fff;
 }
 
 .footer {
-  grid-area: footer;
-  background-color: #8c96a0;
+  grid-area:footer;
+  background-color: #0f2101;
 }
 
 .img1 {
@@ -70,17 +68,17 @@ body {
 
 .img4 {
   grid-area: img4;
-  background-color: #bdcd7c;
+  background-color: #0f2101;
 }
 
 .img5 {
   grid-area: img5;
-  background-color: #bdcd7c;
+  background-color: #0f2101;
 }
 
 .img6 {
   grid-area: img6;
-  background-color: #bdcd7c;
+  background-color:#0f2101;
 }
 .contenido-footer1 {
   grid-area: contenido-footer1;
@@ -159,8 +157,8 @@ body {
   .grid-container {
     grid-template:
       "header  header header" 100px
-      "navbar  navbar navbar" 50px
-      "main    main   main" auto
+      ".  navbar ." 50px
+      ".    main   ." auto
       "footer  footer footer" 100px /
       200px auto 200px;
   }
@@ -171,7 +169,7 @@ body {
       "img3" auto
       "img4" auto
       "img5" auto
-      "img6" auto;
+      "img6" auto
   }
 }
 
