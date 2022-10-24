@@ -48,7 +48,7 @@
    color: #ffffff;
 }
 #caja-quiensomos {
-   background-color: #666;
+   /* background-color: #666; */
    margin-top: 2rem;
 }
 #caja-contacto{
@@ -105,21 +105,14 @@ border-radius: 5px;
  }
  /*-----------------*/
  /*style para pagina index div contenedor de imagenes*/
-  .img-actx{
-   width: 100%;
-   height: 160px;
-   background-image:url("../img/Boxeo/pexels-koolshooters-9945075.jpg") ;
-   background-repeat: no-repeat;
-   background-size: contain;
-   border: 1px solid red;
- }
+
  .img-actxboxeo{
    width:100% ;
    height: 160px;
     background-image:url("../img/Boxeo/pexels-koolshooters-9945075.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
  .img-actxspinning{
@@ -128,7 +121,7 @@ border-radius: 5px;
    background-image:url("../img/Spinning/spinning960x640.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
  .img-actxpesas{
@@ -137,7 +130,7 @@ border-radius: 5px;
    background-image:url("../img/pesas/pesas960x640.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
  .img-actxzumba{
@@ -146,7 +139,7 @@ border-radius: 5px;
    background-image:url("../img/zumba/zumba640x428.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
  .img-actxstrong{
@@ -155,7 +148,7 @@ border-radius: 5px;
    background-image:url("../img/Strong/strong.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
  .img-actxcross{
@@ -164,7 +157,7 @@ border-radius: 5px;
    background-image:url("../img/Crossfit/crossfit-.jpg") ;
    background-repeat: no-repeat;
    background-size: contain;
-   border: 1px solid red;
+   /* border: 1px solid red; */
   background-position: center;
  }
 /*-----------------*/
