@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="./css/inscripcion.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="flex.css"> -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="flex.css"> -->
 </head>
 
 <body class="grid-container">
-    <header class="header"><h1>Header</h1></header>
+    <header class="header">
+        <h1>Header</h1>
+    </header>
     <nav class="navbar " id="nav">
         <div class="ulflex" id="ulnav">
             <ul>
@@ -28,7 +30,37 @@
         </div>
     </nav>
     <section class="main" id="contenedor">
-        <div id="caja-inscrpcion"><form action=""><p>El formulario de inscripcion</p></form></div>
+        <div id="caja-inscrpcion">
+            <form action="actividad.html" target="_blank">
+                <section class="form-register">
+                    <h4>Formulario de Registro</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text" name="apellidos" id="apellidos"
+                        placeholder="Ingrese su Apellido">
+                    <input class="controls" type="text" name="direccion" id="direccion"
+                        placeholder="Ingrese su dirección">
+                    <input class="controls" type="text" name="ciudad" id="ciudad" placeholder="Ingrese Ciudad">
+                    <input class="controls" type="text" name="zipcode" id="cp" placeholder="Ingrese su codigo postal">
+                    <input class="controls" type="tel" name="telefono" id="tel" placeholder="Ingrese su telefono aqui">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                    <input class="controls" type="password" name="correo" id="correo"
+                        placeholder="Ingrese su Contraseña">
+                    <input class="controls" type="text" name="edad" id="edad" placeholder="Ingrese su Edad">
+
+                    <p class="controls" id="check"> Seleccione Actividades de interes:
+                        <input type="checkbox" name="conocimientos" value="Boxeo"> Boxeo
+                        <input type="checkbox" name="conocimientos" value="Spinning"> Spinning
+                        <input type="checkbox" name="conocimientos" value="Zumba"> Zumba
+                        <input type="checkbox" name="conocimientos" value="Strong"> Strong
+                        <input type="checkbox" name="conocimientos" value="Pesas"> Pesas
+                        <input type="checkbox" name="conocimientos" value="Crossfit"> Crossfit
+                    </p>
+                    <br>
+                    <input class="botons" type="submit" value="Registrar">
+                    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+                </section>
+            </form>
+        </div>
     </section>
     <footer class="footer containerFooter">
         <article class="contenido-footer1">
