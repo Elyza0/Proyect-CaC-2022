@@ -41,8 +41,11 @@ body {
 .main {
   grid-area: main;
   /* background-color: #f5f5f5; */
+<<<<<<< HEAD
   padding: 15px 0 15px 0;
   margin-top: 20px;
+=======
+>>>>>>> 31e4654c716a676e784b8ccb8d8134cd4fa8ef9e
 }
 
 .footer {
