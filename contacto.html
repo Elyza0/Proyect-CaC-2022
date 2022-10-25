@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="flex.css"> -->
-<link rel="stylesheet" href="./css/estilosCont.css">
+    <link rel="stylesheet" href="./css/estilosCont.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="flex.css"> -->
 </head>
 
 <body class="grid-container">
-    <header class="header"><h1>Header</h1></header>
+    <header class="header">
+        <h1>Header</h1>
+    </header>
     <nav class="navbar " id="nav">
         <div class="ulflex" id="ulnav">
             <ul>
@@ -29,7 +31,22 @@
         </div>
     </nav>
     <section class="main" id="contenedor">
-
+        <div id="caja-contacto">
+            <form action="" class="formulario">
+                <h1 class="formulario__titulo">Contáctenos</h1>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Nombre</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">DNI</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Provincia</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Correo</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit">
+            </form>
+        </div>
     </section>
     <footer class="footer containerFooter">
         <article class="contenido-footer1">
@@ -39,7 +56,7 @@
             <p>contenido principal del footer</p>
         </article>
     </footer>
-
+    <script src="./js/formCont.js"></script>
 </body>
 
 </html>
