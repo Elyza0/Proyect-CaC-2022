@@ -21,7 +21,7 @@ body {
 
 /* estilos para los elementos del contenedor*/
 .grid-container>* {
-  box-shadow: -1px 1px 5px 0px rgba(236, 13, 13, 0.75);
+  box-shadow: -1px 1px 5px 0px #4c712f;
   border-radius: 4px;
   padding: 5px;
   text-align: center;
@@ -29,67 +29,88 @@ body {
 
 .header {
   grid-area: header;
-  background-color: #85aedd;
+  background-color:  #4c712f;
 }
 
 .navbar {
   grid-area: navbar;
-  background-color: #afd6af;
+  background-color: #000;
   align-content: center;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: #fdcfcf;
+  /* background-color: #fdcfcf; */
+  /* margin-top: 10px; */
 }
 
 .main {
   grid-area: main;
-  background-color: #f5f5f5;
-  padding-top: 15px;
+  /* background-color: #38720b; */
+  padding: 15px 0 15px 0;
+/* margin: auto; */
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 .footer {
   grid-area: footer;
-  background-color: #8c96a0;
+  background-color: #000;
 }
 
 .img1 {
   grid-area: img1;
   background-color: #cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
+ 
 }
 
 .img2 {
   grid-area: img2;
   background-color: #cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
 }
 
 .img3 {
   grid-area: img3;
   background-color: #cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
 }
 
 .img4 {
   grid-area: img4;
   background-color: #cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
 }
 
 .img5 {
   grid-area: img5;
   background-color:#cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
 }
 
 .img6 {
   grid-area: img6;
   background-color: #cdda98;
+  border-radius: 7px;
+  box-shadow: 7px 12px 16px #000;
 }
 .contenido-footer1 {
-  grid-area: contenido-footer1;
-  background-color: #ddc2c9;
+  /* grid-area: contenido-footer1;
+  background-color: #ddc2c9; */
+  display: contents;
+  text-align: center;
 }
 .contenido-footer2 {
+  text-align: center;
+  display: contents;
   grid-area: contenido-footer2;
-  background-color: #ddc2c9;
+  /* background-color: #ddc2c9; */
 }
 
 /* definimos el grid para el body*/
@@ -123,6 +144,7 @@ body {
 
 /* definimos el grid para footer*/
 .containerFooter {
+  color: #fff;
   display: grid;
   gap: 2px;
   /*separacion entre los elementos*/
@@ -132,6 +154,10 @@ body {
 }
 
 @media (min-width: 600px) {
+  .sidebar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 #carouselExampleIndicators{
   display: none;
 }
@@ -183,6 +209,15 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .sidebar {
+margin: 2px;
+  }
+  .main{
+    margin-bottom: 1px;
+  }
+  .footer{
+    margin-top: 10px;
+  }
   #imgVertical{
     display: none;
   }
@@ -193,23 +228,30 @@ body {
     display: none;
   }
 
+    .sidebar{
+      margin: 10px 0 10px 0;
+    }
+
   #carouselExampleIndicators{
     display: inline;
   }
   .grid-container {
+ 
     grid-template:
-      "header  header header" 100px
-      "navbar  navbar navbar" auto
-      "sidebar sidebar sidebar" auto
-      "main    main   main" auto
-      "footer  footer footer" 100px /
-      200px auto 200px;
+      "..  header .." 100px
+      ".  navbar ." auto
+      ". sidebar ." auto
+      ".    main   ." auto
+      ".  footer ." 100px /
+      auto 900px auto;
   }
   .containerCars {
+    padding: 5px;
     grid-template:
       "img1  img2 img3" 50%
-      "img4  img5 img6" 50% /
-      33.33% 33.33% 33.33%;
+      "img4  img5 img6" 50% 
+      /* 33.33% 33.33% 33.33%; */
+
   }
 }
 

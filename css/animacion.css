@@ -1,0 +1,22 @@
+.kja {
+    width: 7px;
+    height: 7px;
+    position: relative;
+    background: black;
+    animation-name: lenteja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lenteja {
+    from {
+        left: 10px;
+        top: 5px;
+    }
+    30% {
+        background: red;
+    }
+    to {
+        left: 97%;
+    }
+}
