@@ -1,12 +1,10 @@
 
-var nombre = document.getElementById('nombre');
-var error = document.getElementById('error');
-
-function validandoForm(){
-    console.log('ingresa ');
-    if ((nombre.value===null) || (nombre.value==='')) {
-        console.log('ingresa ');
+function validandoForm() {
+    var pass = document.getElementById("password").value;
+    var err = document.getElementById("msgError");
+    err.style.color = "red";
+    if (pass === "") {
+        err.innerHTML = "Ingresa una Contraseña";
+        return false;
     }
-    return false;
 }
-
